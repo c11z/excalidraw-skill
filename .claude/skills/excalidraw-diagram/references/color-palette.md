@@ -1,8 +1,11 @@
 # Color Palette & Brand Style — Okabe-Ito
 
-**This is the single source of truth for all colors and brand-specific styles.** To customize diagrams for your own brand, edit this file — everything else in the skill is universal.
+**This is the single source of truth for all colors and brand-specific styles.** To customize diagrams for your own
+brand, edit this file — everything else in the skill is universal.
 
-This palette is built on the **Okabe-Ito colorblind-safe palette** (Okabe & Ito, 2008). The eight base hues are distinguishable under the most common forms of color vision deficiency. Every color in a diagram must be an Okabe-Ito base hue or a tint/shade derived from one (rules below).
+This palette is built on the **Okabe-Ito colorblind-safe palette** (Okabe & Ito, 2008). The eight base hues are
+distinguishable under the most common forms of color vision deficiency. Every color in a diagram must be an Okabe-Ito
+base hue or a tint/shade derived from one (rules below).
 
 ---
 
@@ -21,6 +24,7 @@ This palette is built on the **Okabe-Ito colorblind-safe palette** (Okabe & Ito,
 | Gray (extended) | `#999999` |
 
 **Derivation rules** (when a lighter fill or darker stroke is needed):
+
 - **Fill tint** = base hue mixed 80% toward white (keeps the hue identity, gives a light fill)
 - **Stroke shade** = base hue darkened ~40% (only when the base hue is too light to work as a stroke, e.g. Yellow)
 
@@ -28,7 +32,8 @@ This palette is built on the **Okabe-Ito colorblind-safe palette** (Okabe & Ito,
 
 ## Shape Colors (Semantic)
 
-Colors encode meaning, not decoration. Each semantic purpose has a fill/stroke pair. The hue carries the meaning; fills are light tints of the stroke's hue.
+Colors encode meaning, not decoration. Each semantic purpose has a fill/stroke pair. The hue carries the meaning; fills
+are light tints of the stroke's hue.
 
 | Semantic Purpose | Fill | Stroke | Okabe-Ito Hue |
 |------------------|------|--------|---------------|
@@ -45,7 +50,8 @@ Colors encode meaning, not decoration. Each semantic purpose has a fill/stroke p
 
 **Rule**: Always pair a darker stroke with a lighter fill for contrast.
 
-**Note**: Warning and Error intentionally share the vermillion hue family (Okabe-Ito has one red); Error uses the darker, more saturated pair.
+**Note**: Warning and Error intentionally share the vermillion hue family (Okabe-Ito has one red); Error uses the
+darker, more saturated pair.
 
 ---
 
