@@ -66,6 +66,7 @@ All elements share these:
 ## Rectangle Roundness
 
 Add for rounded corners:
+
 ```json
 "roundness": { "type": 3 }
 ```

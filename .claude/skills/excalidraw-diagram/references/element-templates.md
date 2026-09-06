@@ -1,8 +1,10 @@
 # Element Templates
 
-Copy-paste JSON templates for each Excalidraw element type. The `strokeColor` and `backgroundColor` values are placeholders — always pull actual colors from `color-palette.md` based on the element's semantic purpose.
+Copy-paste JSON templates for each Excalidraw element type. The `strokeColor` and `backgroundColor` values are
+placeholders — always pull actual colors from `color-palette.md` based on the element's semantic purpose.
 
 ## Free-Floating Text (no container)
+
 ```json
 {
   "type": "text",
@@ -37,6 +39,7 @@ Copy-paste JSON templates for each Excalidraw element type. The `strokeColor` an
 ```
 
 ## Line (structural, not arrow)
+
 ```json
 {
   "type": "line",
@@ -64,6 +67,7 @@ Copy-paste JSON templates for each Excalidraw element type. The `strokeColor` an
 ```
 
 ## Small Marker Dot
+
 ```json
 {
   "type": "ellipse",
@@ -90,6 +94,7 @@ Copy-paste JSON templates for each Excalidraw element type. The `strokeColor` an
 ```
 
 ## Rectangle
+
 ```json
 {
   "type": "rectangle",
@@ -116,6 +121,7 @@ Copy-paste JSON templates for each Excalidraw element type. The `strokeColor` an
 ```
 
 ## Text (centered in shape)
+
 ```json
 {
   "type": "text",
@@ -150,6 +156,7 @@ Copy-paste JSON templates for each Excalidraw element type. The `strokeColor` an
 ```
 
 ## Arrow
+
 ```json
 {
   "type": "arrow",
@@ -179,4 +186,6 @@ Copy-paste JSON templates for each Excalidraw element type. The `strokeColor` an
 }
 ```
 
-**Routing**: arrows run horizontal/vertical only. For 90° elbows add waypoints to `points`, e.g. right then down: `"points": [[0, 0], [120, 0], [120, 80]]`. Keep the final segment ≥60px so the arrowhead renders at full size (Excalidraw shrinks heads on short final segments). See "Arrow Routing — Orthogonal Only" in SKILL.md.
+**Routing**: arrows run horizontal/vertical only. For 90° elbows add waypoints to `points`, e.g. right then down:
+`"points": [[0, 0], [120, 0], [120, 80]]`. Keep the final segment ≥60px so the arrowhead renders at full size
+(Excalidraw shrinks heads on short final segments). See "Arrow Routing — Orthogonal Only" in SKILL.md.
