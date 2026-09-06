@@ -1,0 +1,10 @@
+# Local scratch notes
+temp/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
